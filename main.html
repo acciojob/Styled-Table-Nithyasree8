@@ -6,9 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+		<style>
+		table {
+			width: 80%;
+			margin: 40px auto;
+			border-collapse: collapse;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: center;
+		}
+		th {
+			background-color: #f0f0f0;
+		}
+		.confirmed {
+			color: #ff0000;
+		}
+		.recovered {
+			color: #008000;
+		}
+		.deaths {
+			color: #808080;
+		}
+	</style>
 </head>
 <body>
     <!-- add table here -->
+	<table>
+		<thead>
+			<tr>
+				<th>First_Name</th>
+				<th>Last_Name</th>
+				<th>Subject</th>
+				<th>Marks</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Nithya</td>
+				<td class="Last_Name">Kanneti</td>
+				<td class="Subject">Maths</td>
+				<td class="deaths">98</td>
+			</tr>
+			<tr>
+				<td>Chaitu</td>
+				<td class="First_Name">Hosuru</td>
+				<td class="Last_Name">Maths</td>
+				<td class="Marks">100</td>
+			</tr>
+			<tr>
+				<td>Suresh</td>
+				<td class="Last_Name">Annaya</td>
+				<td class="Subject">Maths</td>
+				<td class="Marks">100</td>
+			</tr>
+		</tbody>
+	</table>
+
 
         
 </body>
